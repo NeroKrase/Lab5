@@ -1,0 +1,17 @@
+.picture{
+    width: 100%;
+    margin: 2%;
+}
+
+body{
+    align-items: center;
+    height: 2000px;
+}
+
+#imgBlock{
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: center;
+}
